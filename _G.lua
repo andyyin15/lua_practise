@@ -24,3 +24,4 @@ w.qwe = 654
 print(w.qwe)
 print(arr.mt[qwe])
 print(w.a)
+print("hh")
