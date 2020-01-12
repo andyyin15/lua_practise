@@ -3,3 +3,5 @@ local b = 5
 --print(math.mod(10,6))
 local arr = {1,2,3}
 print(#arr)
+
+print(string.rep("=",10))
