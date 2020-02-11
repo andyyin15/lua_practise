@@ -3,6 +3,7 @@ print(string.format("%X",a))
 print(string.format("%f",a))
 b = -15.23
 print(string.format("%u",b))
+print(string.format("%u",b))
 
 
 print(string.format("%6f", 13.1))
@@ -23,4 +24,12 @@ print(str())
 print(str())
 print(string.find(aa,"%d+"))
 print(string.sub(aa,5,7))
+print(string.match(aa,"%d+"))
+print(string.match(aa,"%d+"))
 
+print(string.format("%10.2s", b) )
+
+
+local time = timeNow
+os.date("*t", time)
+print(os.date("*t", time))

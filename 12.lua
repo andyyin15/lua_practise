@@ -6,7 +6,9 @@ function func(x,y)
 	a3=a*b
 	a4=a/b
 	print(a1,a2,a3,a4)
-
+	return a1,a2,a3,a4
 end
 
 s1,s2,s3,s4=func(a,b)
+--func(a,b)
+print(s1,s2,s3,s4)

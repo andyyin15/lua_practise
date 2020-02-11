@@ -9,7 +9,7 @@ for k,v in pairs(arr) do
 		b[v]=1
 	end
 
-	return a
+	--return a
 
 end
 
@@ -17,4 +17,7 @@ end
 unique(arr)
 for k,v in pairs(a) do
 	print(a[k])
+
 end
+print(unpack(a))
+print(#a)

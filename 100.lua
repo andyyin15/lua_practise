@@ -14,7 +14,7 @@ for i=1,5 do
 		ave=ave+arr[i][j]
 	end
 	ave=ave/3
-	arr[i][6]=
+	arr[i][6]=ave
 end
 
 for i=1,5 do

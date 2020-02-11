@@ -1,3 +1,4 @@
+local fa = io.open("a.txt","a")
 local fa = io.open("a.txt","r")
 --print(fa:read())
 local fa1 = fa:read("*a")

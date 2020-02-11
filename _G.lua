@@ -12,8 +12,8 @@ arr.mt.__index = arr.pro
 --print(w.c)
 
 arr.mt.__newindex = arr.pro
-	--if k == "qq" then
-		--rawset(arr.mt,qq,"xixixixi")
+	--if k == "qwe" then
+		--rawset(arr.mt,qwe,"")
 	--end
 	--rawset(arr.mt,k,v)
 
@@ -22,6 +22,7 @@ arr.mt.__newindex = arr.pro
 w = arr.new()
 w.qwe = 654
 print(w.qwe)
-print(arr.mt[qwe])
+print(arr.mt.qwe)
+print(arr.pro.qwe)
 print(w.a)
 print("hh")

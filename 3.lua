@@ -39,7 +39,7 @@ function rectanger:printarea()
 end
 
 a= shape:new(nil,10)
-a:printarea()
+a.printarea(a)
 b=square:new(nil,20)
 b:printarea()
 c=rectanger:new(nil,10,20)

@@ -26,3 +26,7 @@ local end1 = os.clock()
 print(tostring(end1 - start))
 end
 bubble_sort(arr)
+--print(unpack(arr))
+for i=1,#arr do
+	print(arr[i])
+end

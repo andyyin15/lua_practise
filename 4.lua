@@ -1,3 +1,5 @@
+local file = io.open("1.lua","w+")
 local file = io.open("1.lua","r")
+file:write("qweasdzc")
 io.output(file)
 io.write("chinese")

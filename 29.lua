@@ -21,11 +21,11 @@ else
 
 end
 arr={}
-for i=1,#a do
+for i=1,#tostring(a) do
 	arr[i]=string.sub(a,i,i)
 end
-s=1+arr[#a]
-for i=1,#a do
+s=1+arr[#tostring(a)]
+for i=1,#tostring(a) do
 	t=arr[i]
 	arr[i]=arr[s-i]
 	arr[s-i]=t
