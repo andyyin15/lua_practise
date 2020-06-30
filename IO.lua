@@ -1,6 +1,6 @@
 local file = io.open("aa.txt","r+")
---file:write("1234124")
-
+--file:write(1234124)
+io.output(file)
 arr= {}
 for line in file:lines() do
 	arr[#arr+1] = line .. "\n"

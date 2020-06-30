@@ -22,3 +22,5 @@ end
 for k,v in pairs(words) do
 	print("k" .."=" .. v )
 end
+
+print(string.match(arr,"e"))
